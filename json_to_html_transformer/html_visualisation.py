@@ -6,7 +6,7 @@ json_in = argv[1]
 html_out = argv[2]
 
 
-with open('/Users/edwari/Documents/Exercises/Python/json/json/mbs-json/'+ json_in, encoding="utf8") as data_file:
+with open('/Users/edwari/Documents/Exercises/Python/json/json/mbs-json/' + json_in, encoding="utf8") as data_file:
     data_202 = json.load(data_file)
 
 raw_html = json2html.convert(json=data_202)
