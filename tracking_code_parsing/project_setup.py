@@ -78,19 +78,16 @@ def getFromDict(dataDict, *mapList):
         return tempInfo
 
 def write_to_csv(all_info):
-    # print("hit")
-    for item in all_info:
-        logging.debug(item)
-# Function to write the parsed data to csv file
-#     with open('/Users/edwari/Documents/Exercises/Python/json/csv-files/i.csv', 'a') as out:
-#         csv_out = csv.writer(out)
-#         for row in all_info:
-#             csv_out.writerow(row)
-#         csv_out.writerow([])
 
-
+    # Function to write the parsed data to csv file
+    output_csv = sys.argv[4]
+    output_folder = sys.argv[3]
+    print("hey")
+    with open(output_folder + output_csv, 'a') as out:
+        csv_out = csv.writer(out)
+        for row in all_info:
+            csv_out.writerow(row)
+        csv_out.writerow([])
 
 if __name__ == "__main__":
-    parse_json_survey(sys.argv[1], sys.argv[2])
-
-
+    parse_json_survey(sys.argv[2], sys.argv[1])
