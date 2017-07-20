@@ -1,0 +1,370 @@
+text,"Are you able to report for the calendar year, 1 January 2015 to 31 December 2015?"
+tracking_code,c_1
+type,boolean
+ID,1
+routing,"[{'value': 'Yes', 'destination': 'c_4'}, {'value': 'No', 'destination': 'c_2'}]"
+text,Section A - Reporting Period
+form_type,0001
+text,Survey of Research and Development Carried Out in the United Kingdom
+segment_type,survey
+reporting_period,"{'start': '01/01/2015', 'end': '31/12/2015'}"
+survey_number,002
+survey_scrape_info,"{'file_name': 'ex_sel002-ft0001.pdf', 'folder_name': '002 - Questionnaire Examples', 'scrape_date': '01/06/2017', 'download_date': '24/03/2017'}"
+text,From:
+tracking_code,c_2
+text,What are the dates of the 12-month period that you will be reporting for?
+type,dmy_date
+context,Your return should relate to a business year that ends between 6 April 2015 and 5 April 2016
+ID,2
+text,Section A - Reporting Period
+form_type,0001
+text,Survey of Research and Development Carried Out in the United Kingdom
+segment_type,survey
+reporting_period,"{'start': '01/01/2015', 'end': '31/12/2015'}"
+survey_number,002
+survey_scrape_info,"{'file_name': 'ex_sel002-ft0001.pdf', 'folder_name': '002 - Questionnaire Examples', 'scrape_date': '01/06/2017', 'download_date': '24/03/2017'}"
+text,To:
+tracking_code,c_3
+text,What are the dates of the 12-month period that you will be reporting for?
+type,dmy_date
+context,Your return should relate to a business year that ends between 6 April 2015 and 5 April 2016
+ID,2
+text,Section A - Reporting Period
+form_type,0001
+text,Survey of Research and Development Carried Out in the United Kingdom
+segment_type,survey
+reporting_period,"{'start': '01/01/2015', 'end': '31/12/2015'}"
+survey_number,002
+survey_scrape_info,"{'file_name': 'ex_sel002-ft0001.pdf', 'folder_name': '002 - Questionnaire Examples', 'scrape_date': '01/06/2017', 'download_date': '24/03/2017'}"
+ID,16
+type,boolean
+text,"During the 12 month reporting period, did you purchase any R&D conducted outside this business?"
+include,parent companies or other subsidiary companies within the group operating in the UK.
+tracking_code,43
+routing,"[{'value': 'Yes', 'destination': 'c_44'}, {'value': 'No', 'destination': 'c_50'}]"
+text,Section C - Purchase of R&D Conducted Outside this Business
+exclude,['any expenditure reported as in-house expenditure in Section B']
+form_type,0001
+text,Survey of Research and Development Carried Out in the United Kingdom
+segment_type,survey
+reporting_period,"{'start': '01/01/2015', 'end': '31/12/2015'}"
+survey_number,002
+survey_scrape_info,"{'file_name': 'ex_sel002-ft0001.pdf', 'folder_name': '002 - Questionnaire Examples', 'scrape_date': '01/06/2017', 'download_date': '24/03/2017'}"
+text,Male
+type,employees
+tracking_code,c_d1
+text,researchers?
+context,"Engaged in the conception or creation of new knowledge, products, methods and systems. For example, PhD students, graduates and scientists."
+ID,(a)
+text,"On 1 December 2015, how many employees working on R&D were:"
+ID,22
+text,Section D - Number of Employees - Headcount and Full Time Equivalent (FTE)
+include,"[""all workers paid directly from this business' payroll(s)"", 'those temporarily absent but still being paid (for example on maternity leave)']"
+exclude,"['agency workers/contractors paid directly from the agency payroll/contractor company', 'voluntary workers', 'self employed workers', 'former employees only receiving a pension', ""working owners who are not paid directly from this business' payroll(s)""]"
+context,"An employee is anyone aged 16 or over that your organisation directly pays from its payroll(s), in return for carrying out a full-time or part-time job or being on a training scheme. Each employee should have a contract of employment."
+form_type,0001
+text,Survey of Research and Development Carried Out in the United Kingdom
+segment_type,survey
+reporting_period,"{'start': '01/01/2015', 'end': '31/12/2015'}"
+survey_number,002
+survey_scrape_info,"{'file_name': 'ex_sel002-ft0001.pdf', 'folder_name': '002 - Questionnaire Examples', 'scrape_date': '01/06/2017', 'download_date': '24/03/2017'}"
+text,Female
+type,employees
+tracking_code,c_d2
+text,researchers?
+context,"Engaged in the conception or creation of new knowledge, products, methods and systems. For example, PhD students, graduates and scientists."
+ID,(a)
+text,"On 1 December 2015, how many employees working on R&D were:"
+ID,22
+text,Section D - Number of Employees - Headcount and Full Time Equivalent (FTE)
+include,"[""all workers paid directly from this business' payroll(s)"", 'those temporarily absent but still being paid (for example on maternity leave)']"
+exclude,"['agency workers/contractors paid directly from the agency payroll/contractor company', 'voluntary workers', 'self employed workers', 'former employees only receiving a pension', ""working owners who are not paid directly from this business' payroll(s)""]"
+context,"An employee is anyone aged 16 or over that your organisation directly pays from its payroll(s), in return for carrying out a full-time or part-time job or being on a training scheme. Each employee should have a contract of employment."
+form_type,0001
+text,Survey of Research and Development Carried Out in the United Kingdom
+segment_type,survey
+reporting_period,"{'start': '01/01/2015', 'end': '31/12/2015'}"
+survey_number,002
+survey_scrape_info,"{'file_name': 'ex_sel002-ft0001.pdf', 'folder_name': '002 - Questionnaire Examples', 'scrape_date': '01/06/2017', 'download_date': '24/03/2017'}"
+text,Male
+type,employees
+tracking_code,c_d3
+text,technicians?
+context,Perform scientific and technical tasks normally under the supervision of researchers.
+ID,(b)
+text,"On 1 December 2015, how many employees working on R&D were:"
+ID,22
+text,Section D - Number of Employees - Headcount and Full Time Equivalent (FTE)
+include,"[""all workers paid directly from this business' payroll(s)"", 'those temporarily absent but still being paid (for example on maternity leave)']"
+exclude,"['agency workers/contractors paid directly from the agency payroll/contractor company', 'voluntary workers', 'self employed workers', 'former employees only receiving a pension', ""working owners who are not paid directly from this business' payroll(s)""]"
+context,"An employee is anyone aged 16 or over that your organisation directly pays from its payroll(s), in return for carrying out a full-time or part-time job or being on a training scheme. Each employee should have a contract of employment."
+form_type,0001
+text,Survey of Research and Development Carried Out in the United Kingdom
+segment_type,survey
+reporting_period,"{'start': '01/01/2015', 'end': '31/12/2015'}"
+survey_number,002
+survey_scrape_info,"{'file_name': 'ex_sel002-ft0001.pdf', 'folder_name': '002 - Questionnaire Examples', 'scrape_date': '01/06/2017', 'download_date': '24/03/2017'}"
+text,Female
+type,employees
+tracking_code,c_d4
+text,technicians?
+context,Perform scientific and technical tasks normally under the supervision of researchers.
+ID,(b)
+text,"On 1 December 2015, how many employees working on R&D were:"
+ID,22
+text,Section D - Number of Employees - Headcount and Full Time Equivalent (FTE)
+include,"[""all workers paid directly from this business' payroll(s)"", 'those temporarily absent but still being paid (for example on maternity leave)']"
+exclude,"['agency workers/contractors paid directly from the agency payroll/contractor company', 'voluntary workers', 'self employed workers', 'former employees only receiving a pension', ""working owners who are not paid directly from this business' payroll(s)""]"
+context,"An employee is anyone aged 16 or over that your organisation directly pays from its payroll(s), in return for carrying out a full-time or part-time job or being on a training scheme. Each employee should have a contract of employment."
+form_type,0001
+text,Survey of Research and Development Carried Out in the United Kingdom
+segment_type,survey
+reporting_period,"{'start': '01/01/2015', 'end': '31/12/2015'}"
+survey_number,002
+survey_scrape_info,"{'file_name': 'ex_sel002-ft0001.pdf', 'folder_name': '002 - Questionnaire Examples', 'scrape_date': '01/06/2017', 'download_date': '24/03/2017'}"
+text,Male
+type,employees
+tracking_code,c_d5
+text,others?
+context,"Support staff including skilled and unskilled craftsmen, secretarial and clerical staff participating in R&D projects."
+ID,(c)
+text,"On 1 December 2015, how many employees working on R&D were:"
+ID,22
+text,Section D - Number of Employees - Headcount and Full Time Equivalent (FTE)
+include,"[""all workers paid directly from this business' payroll(s)"", 'those temporarily absent but still being paid (for example on maternity leave)']"
+exclude,"['agency workers/contractors paid directly from the agency payroll/contractor company', 'voluntary workers', 'self employed workers', 'former employees only receiving a pension', ""working owners who are not paid directly from this business' payroll(s)""]"
+context,"An employee is anyone aged 16 or over that your organisation directly pays from its payroll(s), in return for carrying out a full-time or part-time job or being on a training scheme. Each employee should have a contract of employment."
+form_type,0001
+text,Survey of Research and Development Carried Out in the United Kingdom
+segment_type,survey
+reporting_period,"{'start': '01/01/2015', 'end': '31/12/2015'}"
+survey_number,002
+survey_scrape_info,"{'file_name': 'ex_sel002-ft0001.pdf', 'folder_name': '002 - Questionnaire Examples', 'scrape_date': '01/06/2017', 'download_date': '24/03/2017'}"
+text,Female
+type,employees
+tracking_code,c_d6
+text,others?
+context,"Support staff including skilled and unskilled craftsmen, secretarial and clerical staff participating in R&D projects."
+ID,(c)
+text,"On 1 December 2015, how many employees working on R&D were:"
+ID,22
+text,Section D - Number of Employees - Headcount and Full Time Equivalent (FTE)
+include,"[""all workers paid directly from this business' payroll(s)"", 'those temporarily absent but still being paid (for example on maternity leave)']"
+exclude,"['agency workers/contractors paid directly from the agency payroll/contractor company', 'voluntary workers', 'self employed workers', 'former employees only receiving a pension', ""working owners who are not paid directly from this business' payroll(s)""]"
+context,"An employee is anyone aged 16 or over that your organisation directly pays from its payroll(s), in return for carrying out a full-time or part-time job or being on a training scheme. Each employee should have a contract of employment."
+form_type,0001
+text,Survey of Research and Development Carried Out in the United Kingdom
+segment_type,survey
+reporting_period,"{'start': '01/01/2015', 'end': '31/12/2015'}"
+survey_number,002
+survey_scrape_info,"{'file_name': 'ex_sel002-ft0001.pdf', 'folder_name': '002 - Questionnaire Examples', 'scrape_date': '01/06/2017', 'download_date': '24/03/2017'}"
+text,Male
+type,employees
+tracking_code,c_d7
+text,"On 1 December 2015, what was your total headcount number for R&D."
+ID,23
+text,Section D - Number of Employees - Headcount and Full Time Equivalent (FTE)
+include,"[""all workers paid directly from this business' payroll(s)"", 'those temporarily absent but still being paid (for example on maternity leave)']"
+exclude,"['agency workers/contractors paid directly from the agency payroll/contractor company', 'voluntary workers', 'self employed workers', 'former employees only receiving a pension', ""working owners who are not paid directly from this business' payroll(s)""]"
+context,"An employee is anyone aged 16 or over that your organisation directly pays from its payroll(s), in return for carrying out a full-time or part-time job or being on a training scheme. Each employee should have a contract of employment."
+form_type,0001
+text,Survey of Research and Development Carried Out in the United Kingdom
+segment_type,survey
+reporting_period,"{'start': '01/01/2015', 'end': '31/12/2015'}"
+survey_number,002
+survey_scrape_info,"{'file_name': 'ex_sel002-ft0001.pdf', 'folder_name': '002 - Questionnaire Examples', 'scrape_date': '01/06/2017', 'download_date': '24/03/2017'}"
+text,Female
+type,employees
+tracking_code,c_d8
+text,"On 1 December 2015, what was your total headcount number for R&D."
+ID,23
+text,Section D - Number of Employees - Headcount and Full Time Equivalent (FTE)
+include,"[""all workers paid directly from this business' payroll(s)"", 'those temporarily absent but still being paid (for example on maternity leave)']"
+exclude,"['agency workers/contractors paid directly from the agency payroll/contractor company', 'voluntary workers', 'self employed workers', 'former employees only receiving a pension', ""working owners who are not paid directly from this business' payroll(s)""]"
+context,"An employee is anyone aged 16 or over that your organisation directly pays from its payroll(s), in return for carrying out a full-time or part-time job or being on a training scheme. Each employee should have a contract of employment."
+form_type,0001
+text,Survey of Research and Development Carried Out in the United Kingdom
+segment_type,survey
+reporting_period,"{'start': '01/01/2015', 'end': '31/12/2015'}"
+survey_number,002
+survey_scrape_info,"{'file_name': 'ex_sel002-ft0001.pdf', 'folder_name': '002 - Questionnaire Examples', 'scrape_date': '01/06/2017', 'download_date': '24/03/2017'}"
+text,Civil
+type,FTE
+tracking_code,c_d9
+text,researchers?
+context,"Engaged in the conception or creation of new knowledge, products, methods and systems. For example, PhD students, graduates and scientists."
+ID,(a)
+text,"During the 12 month reporting period, how many full-time equivalents (FTEs) working on R&D were:"
+context,"One FTE may be thought of as one person-year. For example, a person who normally spends 30% of their time on R&D and the rest on other activities should be considered as 0.3 FTE. Similarly, if a full-time R&D worker is employed at an R&D unit for only six months, this results in the FTE of 0.5."
+ID,24
+text,Section D - Number of Employees - Headcount and Full Time Equivalent (FTE)
+include,"[""all workers paid directly from this business' payroll(s)"", 'those temporarily absent but still being paid (for example on maternity leave)']"
+exclude,"['agency workers/contractors paid directly from the agency payroll/contractor company', 'voluntary workers', 'self employed workers', 'former employees only receiving a pension', ""working owners who are not paid directly from this business' payroll(s)""]"
+context,"An employee is anyone aged 16 or over that your organisation directly pays from its payroll(s), in return for carrying out a full-time or part-time job or being on a training scheme. Each employee should have a contract of employment."
+form_type,0001
+text,Survey of Research and Development Carried Out in the United Kingdom
+segment_type,survey
+reporting_period,"{'start': '01/01/2015', 'end': '31/12/2015'}"
+survey_number,002
+survey_scrape_info,"{'file_name': 'ex_sel002-ft0001.pdf', 'folder_name': '002 - Questionnaire Examples', 'scrape_date': '01/06/2017', 'download_date': '24/03/2017'}"
+text,Defence
+type,FTE
+tracking_code,c_d10
+text,researchers?
+context,"Engaged in the conception or creation of new knowledge, products, methods and systems. For example, PhD students, graduates and scientists."
+ID,(a)
+text,"During the 12 month reporting period, how many full-time equivalents (FTEs) working on R&D were:"
+context,"One FTE may be thought of as one person-year. For example, a person who normally spends 30% of their time on R&D and the rest on other activities should be considered as 0.3 FTE. Similarly, if a full-time R&D worker is employed at an R&D unit for only six months, this results in the FTE of 0.5."
+ID,24
+text,Section D - Number of Employees - Headcount and Full Time Equivalent (FTE)
+include,"[""all workers paid directly from this business' payroll(s)"", 'those temporarily absent but still being paid (for example on maternity leave)']"
+exclude,"['agency workers/contractors paid directly from the agency payroll/contractor company', 'voluntary workers', 'self employed workers', 'former employees only receiving a pension', ""working owners who are not paid directly from this business' payroll(s)""]"
+context,"An employee is anyone aged 16 or over that your organisation directly pays from its payroll(s), in return for carrying out a full-time or part-time job or being on a training scheme. Each employee should have a contract of employment."
+form_type,0001
+text,Survey of Research and Development Carried Out in the United Kingdom
+segment_type,survey
+reporting_period,"{'start': '01/01/2015', 'end': '31/12/2015'}"
+survey_number,002
+survey_scrape_info,"{'file_name': 'ex_sel002-ft0001.pdf', 'folder_name': '002 - Questionnaire Examples', 'scrape_date': '01/06/2017', 'download_date': '24/03/2017'}"
+text,Civil
+type,FTE
+tracking_code,c_d11
+text,technicians?
+context,Perform scientific and technical tasks normally under the supervision of researchers
+ID,(b)
+text,"During the 12 month reporting period, how many full-time equivalents (FTEs) working on R&D were:"
+context,"One FTE may be thought of as one person-year. For example, a person who normally spends 30% of their time on R&D and the rest on other activities should be considered as 0.3 FTE. Similarly, if a full-time R&D worker is employed at an R&D unit for only six months, this results in the FTE of 0.5."
+ID,24
+text,Section D - Number of Employees - Headcount and Full Time Equivalent (FTE)
+include,"[""all workers paid directly from this business' payroll(s)"", 'those temporarily absent but still being paid (for example on maternity leave)']"
+exclude,"['agency workers/contractors paid directly from the agency payroll/contractor company', 'voluntary workers', 'self employed workers', 'former employees only receiving a pension', ""working owners who are not paid directly from this business' payroll(s)""]"
+context,"An employee is anyone aged 16 or over that your organisation directly pays from its payroll(s), in return for carrying out a full-time or part-time job or being on a training scheme. Each employee should have a contract of employment."
+form_type,0001
+text,Survey of Research and Development Carried Out in the United Kingdom
+segment_type,survey
+reporting_period,"{'start': '01/01/2015', 'end': '31/12/2015'}"
+survey_number,002
+survey_scrape_info,"{'file_name': 'ex_sel002-ft0001.pdf', 'folder_name': '002 - Questionnaire Examples', 'scrape_date': '01/06/2017', 'download_date': '24/03/2017'}"
+text,Defence
+type,FTE
+tracking_code,c_d12
+text,technicians?
+context,Perform scientific and technical tasks normally under the supervision of researchers
+ID,(b)
+text,"During the 12 month reporting period, how many full-time equivalents (FTEs) working on R&D were:"
+context,"One FTE may be thought of as one person-year. For example, a person who normally spends 30% of their time on R&D and the rest on other activities should be considered as 0.3 FTE. Similarly, if a full-time R&D worker is employed at an R&D unit for only six months, this results in the FTE of 0.5."
+ID,24
+text,Section D - Number of Employees - Headcount and Full Time Equivalent (FTE)
+include,"[""all workers paid directly from this business' payroll(s)"", 'those temporarily absent but still being paid (for example on maternity leave)']"
+exclude,"['agency workers/contractors paid directly from the agency payroll/contractor company', 'voluntary workers', 'self employed workers', 'former employees only receiving a pension', ""working owners who are not paid directly from this business' payroll(s)""]"
+context,"An employee is anyone aged 16 or over that your organisation directly pays from its payroll(s), in return for carrying out a full-time or part-time job or being on a training scheme. Each employee should have a contract of employment."
+form_type,0001
+text,Survey of Research and Development Carried Out in the United Kingdom
+segment_type,survey
+reporting_period,"{'start': '01/01/2015', 'end': '31/12/2015'}"
+survey_number,002
+survey_scrape_info,"{'file_name': 'ex_sel002-ft0001.pdf', 'folder_name': '002 - Questionnaire Examples', 'scrape_date': '01/06/2017', 'download_date': '24/03/2017'}"
+text,Civil
+type,FTE
+tracking_code,c_d13
+text,others?
+context,"Support staff including skilled and unskilled craftsmen, secretarial and clerical staff participating in R&D projects"
+ID,(c)
+text,"During the 12 month reporting period, how many full-time equivalents (FTEs) working on R&D were:"
+context,"One FTE may be thought of as one person-year. For example, a person who normally spends 30% of their time on R&D and the rest on other activities should be considered as 0.3 FTE. Similarly, if a full-time R&D worker is employed at an R&D unit for only six months, this results in the FTE of 0.5."
+ID,24
+text,Section D - Number of Employees - Headcount and Full Time Equivalent (FTE)
+include,"[""all workers paid directly from this business' payroll(s)"", 'those temporarily absent but still being paid (for example on maternity leave)']"
+exclude,"['agency workers/contractors paid directly from the agency payroll/contractor company', 'voluntary workers', 'self employed workers', 'former employees only receiving a pension', ""working owners who are not paid directly from this business' payroll(s)""]"
+context,"An employee is anyone aged 16 or over that your organisation directly pays from its payroll(s), in return for carrying out a full-time or part-time job or being on a training scheme. Each employee should have a contract of employment."
+form_type,0001
+text,Survey of Research and Development Carried Out in the United Kingdom
+segment_type,survey
+reporting_period,"{'start': '01/01/2015', 'end': '31/12/2015'}"
+survey_number,002
+survey_scrape_info,"{'file_name': 'ex_sel002-ft0001.pdf', 'folder_name': '002 - Questionnaire Examples', 'scrape_date': '01/06/2017', 'download_date': '24/03/2017'}"
+text,Defence
+type,FTE
+tracking_code,c_d14
+text,others?
+context,"Support staff including skilled and unskilled craftsmen, secretarial and clerical staff participating in R&D projects"
+ID,(c)
+text,"During the 12 month reporting period, how many full-time equivalents (FTEs) working on R&D were:"
+context,"One FTE may be thought of as one person-year. For example, a person who normally spends 30% of their time on R&D and the rest on other activities should be considered as 0.3 FTE. Similarly, if a full-time R&D worker is employed at an R&D unit for only six months, this results in the FTE of 0.5."
+ID,24
+text,Section D - Number of Employees - Headcount and Full Time Equivalent (FTE)
+include,"[""all workers paid directly from this business' payroll(s)"", 'those temporarily absent but still being paid (for example on maternity leave)']"
+exclude,"['agency workers/contractors paid directly from the agency payroll/contractor company', 'voluntary workers', 'self employed workers', 'former employees only receiving a pension', ""working owners who are not paid directly from this business' payroll(s)""]"
+context,"An employee is anyone aged 16 or over that your organisation directly pays from its payroll(s), in return for carrying out a full-time or part-time job or being on a training scheme. Each employee should have a contract of employment."
+form_type,0001
+text,Survey of Research and Development Carried Out in the United Kingdom
+segment_type,survey
+reporting_period,"{'start': '01/01/2015', 'end': '31/12/2015'}"
+survey_number,002
+survey_scrape_info,"{'file_name': 'ex_sel002-ft0001.pdf', 'folder_name': '002 - Questionnaire Examples', 'scrape_date': '01/06/2017', 'download_date': '24/03/2017'}"
+text,Civil
+type,FTE
+tracking_code,c_d15
+text,"During the 12 month reporting period, what was your total number of FTEs working on R&D?"
+ID,25
+text,Section D - Number of Employees - Headcount and Full Time Equivalent (FTE)
+include,"[""all workers paid directly from this business' payroll(s)"", 'those temporarily absent but still being paid (for example on maternity leave)']"
+exclude,"['agency workers/contractors paid directly from the agency payroll/contractor company', 'voluntary workers', 'self employed workers', 'former employees only receiving a pension', ""working owners who are not paid directly from this business' payroll(s)""]"
+context,"An employee is anyone aged 16 or over that your organisation directly pays from its payroll(s), in return for carrying out a full-time or part-time job or being on a training scheme. Each employee should have a contract of employment."
+form_type,0001
+text,Survey of Research and Development Carried Out in the United Kingdom
+segment_type,survey
+reporting_period,"{'start': '01/01/2015', 'end': '31/12/2015'}"
+survey_number,002
+survey_scrape_info,"{'file_name': 'ex_sel002-ft0001.pdf', 'folder_name': '002 - Questionnaire Examples', 'scrape_date': '01/06/2017', 'download_date': '24/03/2017'}"
+text,Defence
+type,FTE
+tracking_code,c_d16
+text,"During the 12 month reporting period, what was your total number of FTEs working on R&D?"
+ID,25
+text,Section D - Number of Employees - Headcount and Full Time Equivalent (FTE)
+include,"[""all workers paid directly from this business' payroll(s)"", 'those temporarily absent but still being paid (for example on maternity leave)']"
+exclude,"['agency workers/contractors paid directly from the agency payroll/contractor company', 'voluntary workers', 'self employed workers', 'former employees only receiving a pension', ""working owners who are not paid directly from this business' payroll(s)""]"
+context,"An employee is anyone aged 16 or over that your organisation directly pays from its payroll(s), in return for carrying out a full-time or part-time job or being on a training scheme. Each employee should have a contract of employment."
+form_type,0001
+text,Survey of Research and Development Carried Out in the United Kingdom
+segment_type,survey
+reporting_period,"{'start': '01/01/2015', 'end': '31/12/2015'}"
+survey_number,002
+survey_scrape_info,"{'file_name': 'ex_sel002-ft0001.pdf', 'folder_name': '002 - Questionnaire Examples', 'scrape_date': '01/06/2017', 'download_date': '24/03/2017'}"
+text,Have there been any significant changes in the data since the last reporting period?
+tracking_code,c_e3
+type,boolean
+ID,27
+routing,"[{'value': 'Yes', 'destination': 'c_e4'}, {'value': 'No', 'destination': 'c_e5'}]"
+text,Section E - Workplace Information
+form_type,0001
+text,Survey of Research and Development Carried Out in the United Kingdom
+segment_type,survey
+reporting_period,"{'start': '01/01/2015', 'end': '31/12/2015'}"
+survey_number,002
+survey_scrape_info,"{'file_name': 'ex_sel002-ft0001.pdf', 'folder_name': '002 - Questionnaire Examples', 'scrape_date': '01/06/2017', 'download_date': '24/03/2017'}"
+text,Please provide any comments below
+tracking_code,c_e4
+type,open_text
+ID,28
+text,Section E - Workplace Information
+form_type,0001
+text,Survey of Research and Development Carried Out in the United Kingdom
+segment_type,survey
+reporting_period,"{'start': '01/01/2015', 'end': '31/12/2015'}"
+survey_number,002
+survey_scrape_info,"{'file_name': 'ex_sel002-ft0001.pdf', 'folder_name': '002 - Questionnaire Examples', 'scrape_date': '01/06/2017', 'download_date': '24/03/2017'}"
+text,Contact details
+tracking_code,c_e5
+type,contact_6
+ID,29
+context,Please provide details of the person we should contact if we have any queries regarding the information returned on this questionnaire:
+text,Section E - Workplace Information
+form_type,0001
+text,Survey of Research and Development Carried Out in the United Kingdom
+segment_type,survey
+reporting_period,"{'start': '01/01/2015', 'end': '31/12/2015'}"
+survey_number,002
+survey_scrape_info,"{'file_name': 'ex_sel002-ft0001.pdf', 'folder_name': '002 - Questionnaire Examples', 'scrape_date': '01/06/2017', 'download_date': '24/03/2017'}"
+

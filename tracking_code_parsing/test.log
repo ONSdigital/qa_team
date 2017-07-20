@@ -1,0 +1,484 @@
+2017-07-19 16:22:33,217:DEBUG:['segment', 'segment', 0, 'question', 0, 'tracking_code']
+2017-07-19 16:22:33,217:DEBUG:['segment', 'segment', 0, 'segment', 0, 'question', 0, 'tracking_code']
+2017-07-19 16:22:33,217:DEBUG:['segment', 'segment', 0, 'segment', 0, 'question', 1, 'tracking_code']
+2017-07-19 16:22:33,217:DEBUG:['segment', 'segment', 2, 'question', 0, 'tracking_code']
+2017-07-19 16:22:33,217:DEBUG:['segment', 'segment', 3, 'segment', 0, 'segment', 0, 'question', 0, 'tracking_code']
+2017-07-19 16:22:33,217:DEBUG:['segment', 'segment', 3, 'segment', 0, 'segment', 0, 'question', 1, 'tracking_code']
+2017-07-19 16:22:33,217:DEBUG:['segment', 'segment', 3, 'segment', 0, 'segment', 1, 'question', 0, 'tracking_code']
+2017-07-19 16:22:33,218:DEBUG:['segment', 'segment', 3, 'segment', 0, 'segment', 1, 'question', 1, 'tracking_code']
+2017-07-19 16:22:33,218:DEBUG:['segment', 'segment', 3, 'segment', 0, 'segment', 2, 'question', 0, 'tracking_code']
+2017-07-19 16:22:33,218:DEBUG:['segment', 'segment', 3, 'segment', 0, 'segment', 2, 'question', 1, 'tracking_code']
+2017-07-19 16:22:33,218:DEBUG:['segment', 'segment', 3, 'segment', 1, 'question', 0, 'tracking_code']
+2017-07-19 16:22:33,218:DEBUG:['segment', 'segment', 3, 'segment', 1, 'question', 1, 'tracking_code']
+2017-07-19 16:22:33,218:DEBUG:['segment', 'segment', 3, 'segment', 2, 'segment', 0, 'question', 0, 'tracking_code']
+2017-07-19 16:22:33,218:DEBUG:['segment', 'segment', 3, 'segment', 2, 'segment', 0, 'question', 1, 'tracking_code']
+2017-07-19 16:22:33,218:DEBUG:['segment', 'segment', 3, 'segment', 2, 'segment', 1, 'question', 0, 'tracking_code']
+2017-07-19 16:22:33,218:DEBUG:['segment', 'segment', 3, 'segment', 2, 'segment', 1, 'question', 1, 'tracking_code']
+2017-07-19 16:22:33,218:DEBUG:['segment', 'segment', 3, 'segment', 2, 'segment', 2, 'question', 0, 'tracking_code']
+2017-07-19 16:22:33,218:DEBUG:['segment', 'segment', 3, 'segment', 2, 'segment', 2, 'question', 1, 'tracking_code']
+2017-07-19 16:22:33,218:DEBUG:['segment', 'segment', 3, 'segment', 3, 'question', 0, 'tracking_code']
+2017-07-19 16:22:33,218:DEBUG:['segment', 'segment', 3, 'segment', 3, 'question', 1, 'tracking_code']
+2017-07-19 16:22:33,218:DEBUG:['segment', 'segment', 4, 'question', 0, 'tracking_code']
+2017-07-19 16:22:33,218:DEBUG:['segment', 'segment', 4, 'question', 1, 'tracking_code']
+2017-07-19 16:22:33,218:DEBUG:['segment', 'segment', 4, 'question', 2, 'tracking_code']
+2017-07-19 16:22:33,219:DEBUG:('text', 'Are you able to report for the calendar year, 1 January 2015 to 31 December 2015?')
+2017-07-19 16:22:33,219:DEBUG:('routing', [{'value': 'Yes', 'destination': 'c_4'}, {'value': 'No', 'destination': 'c_2'}])
+2017-07-19 16:22:33,219:DEBUG:('ID', '1')
+2017-07-19 16:22:33,219:DEBUG:('tracking_code', 'c_1')
+2017-07-19 16:22:33,219:DEBUG:('type', 'boolean')
+2017-07-19 16:22:33,219:DEBUG:('text', 'Section A - Reporting Period')
+2017-07-19 16:22:33,219:DEBUG:('text', 'Survey of Research and Development Carried Out in the United Kingdom')
+2017-07-19 16:22:33,219:DEBUG:('segment_type', 'survey')
+2017-07-19 16:22:33,219:DEBUG:('form_type', '0001')
+2017-07-19 16:22:33,219:DEBUG:('survey_number', '002')
+2017-07-19 16:22:33,219:DEBUG:('reporting_period', {'end': '31/12/2015', 'start': '01/01/2015'})
+2017-07-19 16:22:33,219:DEBUG:('survey_scrape_info', {'folder_name': '002 - Questionnaire Examples', 'download_date': '24/03/2017', 'file_name': 'ex_sel002-ft0001.pdf', 'scrape_date': '01/06/2017'})
+2017-07-19 16:22:33,220:DEBUG:('text', 'From:')
+2017-07-19 16:22:33,220:DEBUG:('tracking_code', 'c_2')
+2017-07-19 16:22:33,220:DEBUG:('context', 'Your return should relate to a business year that ends between 6 April 2015 and 5 April 2016')
+2017-07-19 16:22:33,220:DEBUG:('text', 'What are the dates of the 12-month period that you will be reporting for?')
+2017-07-19 16:22:33,220:DEBUG:('ID', '2')
+2017-07-19 16:22:33,220:DEBUG:('type', 'dmy_date')
+2017-07-19 16:22:33,220:DEBUG:('text', 'Section A - Reporting Period')
+2017-07-19 16:22:33,220:DEBUG:('text', 'Survey of Research and Development Carried Out in the United Kingdom')
+2017-07-19 16:22:33,220:DEBUG:('segment_type', 'survey')
+2017-07-19 16:22:33,220:DEBUG:('form_type', '0001')
+2017-07-19 16:22:33,220:DEBUG:('survey_number', '002')
+2017-07-19 16:22:33,220:DEBUG:('reporting_period', {'end': '31/12/2015', 'start': '01/01/2015'})
+2017-07-19 16:22:33,220:DEBUG:('survey_scrape_info', {'folder_name': '002 - Questionnaire Examples', 'download_date': '24/03/2017', 'file_name': 'ex_sel002-ft0001.pdf', 'scrape_date': '01/06/2017'})
+2017-07-19 16:22:33,220:DEBUG:('text', 'To:')
+2017-07-19 16:22:33,220:DEBUG:('tracking_code', 'c_3')
+2017-07-19 16:22:33,220:DEBUG:('context', 'Your return should relate to a business year that ends between 6 April 2015 and 5 April 2016')
+2017-07-19 16:22:33,220:DEBUG:('text', 'What are the dates of the 12-month period that you will be reporting for?')
+2017-07-19 16:22:33,220:DEBUG:('ID', '2')
+2017-07-19 16:22:33,220:DEBUG:('type', 'dmy_date')
+2017-07-19 16:22:33,220:DEBUG:('text', 'Section A - Reporting Period')
+2017-07-19 16:22:33,220:DEBUG:('text', 'Survey of Research and Development Carried Out in the United Kingdom')
+2017-07-19 16:22:33,220:DEBUG:('segment_type', 'survey')
+2017-07-19 16:22:33,220:DEBUG:('form_type', '0001')
+2017-07-19 16:22:33,220:DEBUG:('survey_number', '002')
+2017-07-19 16:22:33,220:DEBUG:('reporting_period', {'end': '31/12/2015', 'start': '01/01/2015'})
+2017-07-19 16:22:33,220:DEBUG:('survey_scrape_info', {'folder_name': '002 - Questionnaire Examples', 'download_date': '24/03/2017', 'file_name': 'ex_sel002-ft0001.pdf', 'scrape_date': '01/06/2017'})
+2017-07-19 16:22:33,221:DEBUG:('routing', [{'value': 'Yes', 'destination': 'c_44'}, {'value': 'No', 'destination': 'c_50'}])
+2017-07-19 16:22:33,221:DEBUG:('type', 'boolean')
+2017-07-19 16:22:33,221:DEBUG:('tracking_code', '43')
+2017-07-19 16:22:33,221:DEBUG:('ID', '16')
+2017-07-19 16:22:33,221:DEBUG:('text', 'During the 12 month reporting period, did you purchase any R&D conducted outside this business?')
+2017-07-19 16:22:33,221:DEBUG:('include', 'parent companies or other subsidiary companies within the group operating in the UK.')
+2017-07-19 16:22:33,221:DEBUG:('text', 'Section C - Purchase of R&D Conducted Outside this Business')
+2017-07-19 16:22:33,221:DEBUG:('exclude', ['any expenditure reported as in-house expenditure in Section B'])
+2017-07-19 16:22:33,221:DEBUG:('text', 'Survey of Research and Development Carried Out in the United Kingdom')
+2017-07-19 16:22:33,221:DEBUG:('segment_type', 'survey')
+2017-07-19 16:22:33,221:DEBUG:('form_type', '0001')
+2017-07-19 16:22:33,221:DEBUG:('survey_number', '002')
+2017-07-19 16:22:33,221:DEBUG:('reporting_period', {'end': '31/12/2015', 'start': '01/01/2015'})
+2017-07-19 16:22:33,221:DEBUG:('survey_scrape_info', {'folder_name': '002 - Questionnaire Examples', 'download_date': '24/03/2017', 'file_name': 'ex_sel002-ft0001.pdf', 'scrape_date': '01/06/2017'})
+2017-07-19 16:22:33,221:DEBUG:('text', 'Male')
+2017-07-19 16:22:33,221:DEBUG:('type', 'employees')
+2017-07-19 16:22:33,221:DEBUG:('tracking_code', 'c_d1')
+2017-07-19 16:22:33,221:DEBUG:('context', 'Engaged in the conception or creation of new knowledge, products, methods and systems. For example, PhD students, graduates and scientists.')
+2017-07-19 16:22:33,221:DEBUG:('text', 'researchers?')
+2017-07-19 16:22:33,221:DEBUG:('ID', '(a)')
+2017-07-19 16:22:33,221:DEBUG:('text', 'On 1 December 2015, how many employees working on R&D were:')
+2017-07-19 16:22:33,221:DEBUG:('ID', '22')
+2017-07-19 16:22:33,221:DEBUG:('context', 'An employee is anyone aged 16 or over that your organisation directly pays from its payroll(s), in return for carrying out a full-time or part-time job or being on a training scheme. Each employee should have a contract of employment.')
+2017-07-19 16:22:33,221:DEBUG:('text', 'Section D - Number of Employees - Headcount and Full Time Equivalent (FTE)')
+2017-07-19 16:22:33,221:DEBUG:('exclude', ['agency workers/contractors paid directly from the agency payroll/contractor company', 'voluntary workers', 'self employed workers', 'former employees only receiving a pension', "working owners who are not paid directly from this business' payroll(s)"])
+2017-07-19 16:22:33,221:DEBUG:('include', ["all workers paid directly from this business' payroll(s)", 'those temporarily absent but still being paid (for example on maternity leave)'])
+2017-07-19 16:22:33,221:DEBUG:('text', 'Survey of Research and Development Carried Out in the United Kingdom')
+2017-07-19 16:22:33,221:DEBUG:('segment_type', 'survey')
+2017-07-19 16:22:33,221:DEBUG:('form_type', '0001')
+2017-07-19 16:22:33,222:DEBUG:('survey_number', '002')
+2017-07-19 16:22:33,222:DEBUG:('reporting_period', {'end': '31/12/2015', 'start': '01/01/2015'})
+2017-07-19 16:22:33,222:DEBUG:('survey_scrape_info', {'folder_name': '002 - Questionnaire Examples', 'download_date': '24/03/2017', 'file_name': 'ex_sel002-ft0001.pdf', 'scrape_date': '01/06/2017'})
+2017-07-19 16:22:33,222:DEBUG:('text', 'Female')
+2017-07-19 16:22:33,222:DEBUG:('type', 'employees')
+2017-07-19 16:22:33,222:DEBUG:('tracking_code', 'c_d2')
+2017-07-19 16:22:33,222:DEBUG:('context', 'Engaged in the conception or creation of new knowledge, products, methods and systems. For example, PhD students, graduates and scientists.')
+2017-07-19 16:22:33,222:DEBUG:('text', 'researchers?')
+2017-07-19 16:22:33,222:DEBUG:('ID', '(a)')
+2017-07-19 16:22:33,222:DEBUG:('text', 'On 1 December 2015, how many employees working on R&D were:')
+2017-07-19 16:22:33,222:DEBUG:('ID', '22')
+2017-07-19 16:22:33,222:DEBUG:('context', 'An employee is anyone aged 16 or over that your organisation directly pays from its payroll(s), in return for carrying out a full-time or part-time job or being on a training scheme. Each employee should have a contract of employment.')
+2017-07-19 16:22:33,222:DEBUG:('text', 'Section D - Number of Employees - Headcount and Full Time Equivalent (FTE)')
+2017-07-19 16:22:33,222:DEBUG:('exclude', ['agency workers/contractors paid directly from the agency payroll/contractor company', 'voluntary workers', 'self employed workers', 'former employees only receiving a pension', "working owners who are not paid directly from this business' payroll(s)"])
+2017-07-19 16:22:33,222:DEBUG:('include', ["all workers paid directly from this business' payroll(s)", 'those temporarily absent but still being paid (for example on maternity leave)'])
+2017-07-19 16:22:33,222:DEBUG:('text', 'Survey of Research and Development Carried Out in the United Kingdom')
+2017-07-19 16:22:33,222:DEBUG:('segment_type', 'survey')
+2017-07-19 16:22:33,222:DEBUG:('form_type', '0001')
+2017-07-19 16:22:33,222:DEBUG:('survey_number', '002')
+2017-07-19 16:22:33,222:DEBUG:('reporting_period', {'end': '31/12/2015', 'start': '01/01/2015'})
+2017-07-19 16:22:33,222:DEBUG:('survey_scrape_info', {'folder_name': '002 - Questionnaire Examples', 'download_date': '24/03/2017', 'file_name': 'ex_sel002-ft0001.pdf', 'scrape_date': '01/06/2017'})
+2017-07-19 16:22:33,222:DEBUG:('text', 'Male')
+2017-07-19 16:22:33,222:DEBUG:('type', 'employees')
+2017-07-19 16:22:33,222:DEBUG:('tracking_code', 'c_d3')
+2017-07-19 16:22:33,222:DEBUG:('context', 'Perform scientific and technical tasks normally under the supervision of researchers.')
+2017-07-19 16:22:33,222:DEBUG:('text', 'technicians?')
+2017-07-19 16:22:33,222:DEBUG:('ID', '(b)')
+2017-07-19 16:22:33,222:DEBUG:('text', 'On 1 December 2015, how many employees working on R&D were:')
+2017-07-19 16:22:33,222:DEBUG:('ID', '22')
+2017-07-19 16:22:33,222:DEBUG:('context', 'An employee is anyone aged 16 or over that your organisation directly pays from its payroll(s), in return for carrying out a full-time or part-time job or being on a training scheme. Each employee should have a contract of employment.')
+2017-07-19 16:22:33,222:DEBUG:('text', 'Section D - Number of Employees - Headcount and Full Time Equivalent (FTE)')
+2017-07-19 16:22:33,223:DEBUG:('exclude', ['agency workers/contractors paid directly from the agency payroll/contractor company', 'voluntary workers', 'self employed workers', 'former employees only receiving a pension', "working owners who are not paid directly from this business' payroll(s)"])
+2017-07-19 16:22:33,223:DEBUG:('include', ["all workers paid directly from this business' payroll(s)", 'those temporarily absent but still being paid (for example on maternity leave)'])
+2017-07-19 16:22:33,223:DEBUG:('text', 'Survey of Research and Development Carried Out in the United Kingdom')
+2017-07-19 16:22:33,223:DEBUG:('segment_type', 'survey')
+2017-07-19 16:22:33,223:DEBUG:('form_type', '0001')
+2017-07-19 16:22:33,223:DEBUG:('survey_number', '002')
+2017-07-19 16:22:33,223:DEBUG:('reporting_period', {'end': '31/12/2015', 'start': '01/01/2015'})
+2017-07-19 16:22:33,223:DEBUG:('survey_scrape_info', {'folder_name': '002 - Questionnaire Examples', 'download_date': '24/03/2017', 'file_name': 'ex_sel002-ft0001.pdf', 'scrape_date': '01/06/2017'})
+2017-07-19 16:22:33,223:DEBUG:('text', 'Female')
+2017-07-19 16:22:33,223:DEBUG:('type', 'employees')
+2017-07-19 16:22:33,223:DEBUG:('tracking_code', 'c_d4')
+2017-07-19 16:22:33,223:DEBUG:('context', 'Perform scientific and technical tasks normally under the supervision of researchers.')
+2017-07-19 16:22:33,223:DEBUG:('text', 'technicians?')
+2017-07-19 16:22:33,223:DEBUG:('ID', '(b)')
+2017-07-19 16:22:33,223:DEBUG:('text', 'On 1 December 2015, how many employees working on R&D were:')
+2017-07-19 16:22:33,223:DEBUG:('ID', '22')
+2017-07-19 16:22:33,223:DEBUG:('context', 'An employee is anyone aged 16 or over that your organisation directly pays from its payroll(s), in return for carrying out a full-time or part-time job or being on a training scheme. Each employee should have a contract of employment.')
+2017-07-19 16:22:33,223:DEBUG:('text', 'Section D - Number of Employees - Headcount and Full Time Equivalent (FTE)')
+2017-07-19 16:22:33,223:DEBUG:('exclude', ['agency workers/contractors paid directly from the agency payroll/contractor company', 'voluntary workers', 'self employed workers', 'former employees only receiving a pension', "working owners who are not paid directly from this business' payroll(s)"])
+2017-07-19 16:22:33,223:DEBUG:('include', ["all workers paid directly from this business' payroll(s)", 'those temporarily absent but still being paid (for example on maternity leave)'])
+2017-07-19 16:22:33,223:DEBUG:('text', 'Survey of Research and Development Carried Out in the United Kingdom')
+2017-07-19 16:22:33,223:DEBUG:('segment_type', 'survey')
+2017-07-19 16:22:33,223:DEBUG:('form_type', '0001')
+2017-07-19 16:22:33,223:DEBUG:('survey_number', '002')
+2017-07-19 16:22:33,223:DEBUG:('reporting_period', {'end': '31/12/2015', 'start': '01/01/2015'})
+2017-07-19 16:22:33,223:DEBUG:('survey_scrape_info', {'folder_name': '002 - Questionnaire Examples', 'download_date': '24/03/2017', 'file_name': 'ex_sel002-ft0001.pdf', 'scrape_date': '01/06/2017'})
+2017-07-19 16:22:33,223:DEBUG:('text', 'Male')
+2017-07-19 16:22:33,223:DEBUG:('type', 'employees')
+2017-07-19 16:22:33,224:DEBUG:('tracking_code', 'c_d5')
+2017-07-19 16:22:33,224:DEBUG:('context', 'Support staff including skilled and unskilled craftsmen, secretarial and clerical staff participating in R&D projects.')
+2017-07-19 16:22:33,224:DEBUG:('text', 'others?')
+2017-07-19 16:22:33,224:DEBUG:('ID', '(c)')
+2017-07-19 16:22:33,224:DEBUG:('text', 'On 1 December 2015, how many employees working on R&D were:')
+2017-07-19 16:22:33,224:DEBUG:('ID', '22')
+2017-07-19 16:22:33,224:DEBUG:('context', 'An employee is anyone aged 16 or over that your organisation directly pays from its payroll(s), in return for carrying out a full-time or part-time job or being on a training scheme. Each employee should have a contract of employment.')
+2017-07-19 16:22:33,224:DEBUG:('text', 'Section D - Number of Employees - Headcount and Full Time Equivalent (FTE)')
+2017-07-19 16:22:33,224:DEBUG:('exclude', ['agency workers/contractors paid directly from the agency payroll/contractor company', 'voluntary workers', 'self employed workers', 'former employees only receiving a pension', "working owners who are not paid directly from this business' payroll(s)"])
+2017-07-19 16:22:33,224:DEBUG:('include', ["all workers paid directly from this business' payroll(s)", 'those temporarily absent but still being paid (for example on maternity leave)'])
+2017-07-19 16:22:33,224:DEBUG:('text', 'Survey of Research and Development Carried Out in the United Kingdom')
+2017-07-19 16:22:33,224:DEBUG:('segment_type', 'survey')
+2017-07-19 16:22:33,224:DEBUG:('form_type', '0001')
+2017-07-19 16:22:33,224:DEBUG:('survey_number', '002')
+2017-07-19 16:22:33,224:DEBUG:('reporting_period', {'end': '31/12/2015', 'start': '01/01/2015'})
+2017-07-19 16:22:33,224:DEBUG:('survey_scrape_info', {'folder_name': '002 - Questionnaire Examples', 'download_date': '24/03/2017', 'file_name': 'ex_sel002-ft0001.pdf', 'scrape_date': '01/06/2017'})
+2017-07-19 16:22:33,224:DEBUG:('text', 'Female')
+2017-07-19 16:22:33,224:DEBUG:('type', 'employees')
+2017-07-19 16:22:33,224:DEBUG:('tracking_code', 'c_d6')
+2017-07-19 16:22:33,224:DEBUG:('context', 'Support staff including skilled and unskilled craftsmen, secretarial and clerical staff participating in R&D projects.')
+2017-07-19 16:22:33,224:DEBUG:('text', 'others?')
+2017-07-19 16:22:33,224:DEBUG:('ID', '(c)')
+2017-07-19 16:22:33,224:DEBUG:('text', 'On 1 December 2015, how many employees working on R&D were:')
+2017-07-19 16:22:33,224:DEBUG:('ID', '22')
+2017-07-19 16:22:33,224:DEBUG:('context', 'An employee is anyone aged 16 or over that your organisation directly pays from its payroll(s), in return for carrying out a full-time or part-time job or being on a training scheme. Each employee should have a contract of employment.')
+2017-07-19 16:22:33,224:DEBUG:('text', 'Section D - Number of Employees - Headcount and Full Time Equivalent (FTE)')
+2017-07-19 16:22:33,224:DEBUG:('exclude', ['agency workers/contractors paid directly from the agency payroll/contractor company', 'voluntary workers', 'self employed workers', 'former employees only receiving a pension', "working owners who are not paid directly from this business' payroll(s)"])
+2017-07-19 16:22:33,224:DEBUG:('include', ["all workers paid directly from this business' payroll(s)", 'those temporarily absent but still being paid (for example on maternity leave)'])
+2017-07-19 16:22:33,224:DEBUG:('text', 'Survey of Research and Development Carried Out in the United Kingdom')
+2017-07-19 16:22:33,225:DEBUG:('segment_type', 'survey')
+2017-07-19 16:22:33,225:DEBUG:('form_type', '0001')
+2017-07-19 16:22:33,225:DEBUG:('survey_number', '002')
+2017-07-19 16:22:33,225:DEBUG:('reporting_period', {'end': '31/12/2015', 'start': '01/01/2015'})
+2017-07-19 16:22:33,225:DEBUG:('survey_scrape_info', {'folder_name': '002 - Questionnaire Examples', 'download_date': '24/03/2017', 'file_name': 'ex_sel002-ft0001.pdf', 'scrape_date': '01/06/2017'})
+2017-07-19 16:22:33,225:DEBUG:('text', 'Male')
+2017-07-19 16:22:33,225:DEBUG:('type', 'employees')
+2017-07-19 16:22:33,225:DEBUG:('tracking_code', 'c_d7')
+2017-07-19 16:22:33,225:DEBUG:('text', 'On 1 December 2015, what was your total headcount number for R&D.')
+2017-07-19 16:22:33,225:DEBUG:('ID', '23')
+2017-07-19 16:22:33,225:DEBUG:('context', 'An employee is anyone aged 16 or over that your organisation directly pays from its payroll(s), in return for carrying out a full-time or part-time job or being on a training scheme. Each employee should have a contract of employment.')
+2017-07-19 16:22:33,225:DEBUG:('text', 'Section D - Number of Employees - Headcount and Full Time Equivalent (FTE)')
+2017-07-19 16:22:33,225:DEBUG:('exclude', ['agency workers/contractors paid directly from the agency payroll/contractor company', 'voluntary workers', 'self employed workers', 'former employees only receiving a pension', "working owners who are not paid directly from this business' payroll(s)"])
+2017-07-19 16:22:33,225:DEBUG:('include', ["all workers paid directly from this business' payroll(s)", 'those temporarily absent but still being paid (for example on maternity leave)'])
+2017-07-19 16:22:33,225:DEBUG:('text', 'Survey of Research and Development Carried Out in the United Kingdom')
+2017-07-19 16:22:33,225:DEBUG:('segment_type', 'survey')
+2017-07-19 16:22:33,225:DEBUG:('form_type', '0001')
+2017-07-19 16:22:33,225:DEBUG:('survey_number', '002')
+2017-07-19 16:22:33,225:DEBUG:('reporting_period', {'end': '31/12/2015', 'start': '01/01/2015'})
+2017-07-19 16:22:33,225:DEBUG:('survey_scrape_info', {'folder_name': '002 - Questionnaire Examples', 'download_date': '24/03/2017', 'file_name': 'ex_sel002-ft0001.pdf', 'scrape_date': '01/06/2017'})
+2017-07-19 16:22:33,225:DEBUG:('text', 'Female')
+2017-07-19 16:22:33,225:DEBUG:('type', 'employees')
+2017-07-19 16:22:33,225:DEBUG:('tracking_code', 'c_d8')
+2017-07-19 16:22:33,225:DEBUG:('text', 'On 1 December 2015, what was your total headcount number for R&D.')
+2017-07-19 16:22:33,225:DEBUG:('ID', '23')
+2017-07-19 16:22:33,225:DEBUG:('context', 'An employee is anyone aged 16 or over that your organisation directly pays from its payroll(s), in return for carrying out a full-time or part-time job or being on a training scheme. Each employee should have a contract of employment.')
+2017-07-19 16:22:33,226:DEBUG:('text', 'Section D - Number of Employees - Headcount and Full Time Equivalent (FTE)')
+2017-07-19 16:22:33,226:DEBUG:('exclude', ['agency workers/contractors paid directly from the agency payroll/contractor company', 'voluntary workers', 'self employed workers', 'former employees only receiving a pension', "working owners who are not paid directly from this business' payroll(s)"])
+2017-07-19 16:22:33,226:DEBUG:('include', ["all workers paid directly from this business' payroll(s)", 'those temporarily absent but still being paid (for example on maternity leave)'])
+2017-07-19 16:22:33,226:DEBUG:('text', 'Survey of Research and Development Carried Out in the United Kingdom')
+2017-07-19 16:22:33,226:DEBUG:('segment_type', 'survey')
+2017-07-19 16:22:33,226:DEBUG:('form_type', '0001')
+2017-07-19 16:22:33,226:DEBUG:('survey_number', '002')
+2017-07-19 16:22:33,226:DEBUG:('reporting_period', {'end': '31/12/2015', 'start': '01/01/2015'})
+2017-07-19 16:22:33,226:DEBUG:('survey_scrape_info', {'folder_name': '002 - Questionnaire Examples', 'download_date': '24/03/2017', 'file_name': 'ex_sel002-ft0001.pdf', 'scrape_date': '01/06/2017'})
+2017-07-19 16:22:33,226:DEBUG:('text', 'Civil')
+2017-07-19 16:22:33,226:DEBUG:('type', 'FTE')
+2017-07-19 16:22:33,226:DEBUG:('tracking_code', 'c_d9')
+2017-07-19 16:22:33,226:DEBUG:('context', 'Engaged in the conception or creation of new knowledge, products, methods and systems. For example, PhD students, graduates and scientists.')
+2017-07-19 16:22:33,226:DEBUG:('text', 'researchers?')
+2017-07-19 16:22:33,226:DEBUG:('ID', '(a)')
+2017-07-19 16:22:33,226:DEBUG:('context', 'One FTE may be thought of as one person-year. For example, a person who normally spends 30% of their time on R&D and the rest on other activities should be considered as 0.3 FTE. Similarly, if a full-time R&D worker is employed at an R&D unit for only six months, this results in the FTE of 0.5.')
+2017-07-19 16:22:33,226:DEBUG:('text', 'During the 12 month reporting period, how many full-time equivalents (FTEs) working on R&D were:')
+2017-07-19 16:22:33,226:DEBUG:('ID', '24')
+2017-07-19 16:22:33,226:DEBUG:('context', 'An employee is anyone aged 16 or over that your organisation directly pays from its payroll(s), in return for carrying out a full-time or part-time job or being on a training scheme. Each employee should have a contract of employment.')
+2017-07-19 16:22:33,226:DEBUG:('text', 'Section D - Number of Employees - Headcount and Full Time Equivalent (FTE)')
+2017-07-19 16:22:33,226:DEBUG:('exclude', ['agency workers/contractors paid directly from the agency payroll/contractor company', 'voluntary workers', 'self employed workers', 'former employees only receiving a pension', "working owners who are not paid directly from this business' payroll(s)"])
+2017-07-19 16:22:33,226:DEBUG:('include', ["all workers paid directly from this business' payroll(s)", 'those temporarily absent but still being paid (for example on maternity leave)'])
+2017-07-19 16:22:33,226:DEBUG:('text', 'Survey of Research and Development Carried Out in the United Kingdom')
+2017-07-19 16:22:33,226:DEBUG:('segment_type', 'survey')
+2017-07-19 16:22:33,226:DEBUG:('form_type', '0001')
+2017-07-19 16:22:33,226:DEBUG:('survey_number', '002')
+2017-07-19 16:22:33,226:DEBUG:('reporting_period', {'end': '31/12/2015', 'start': '01/01/2015'})
+2017-07-19 16:22:33,226:DEBUG:('survey_scrape_info', {'folder_name': '002 - Questionnaire Examples', 'download_date': '24/03/2017', 'file_name': 'ex_sel002-ft0001.pdf', 'scrape_date': '01/06/2017'})
+2017-07-19 16:22:33,226:DEBUG:('text', 'Defence')
+2017-07-19 16:22:33,226:DEBUG:('type', 'FTE')
+2017-07-19 16:22:33,227:DEBUG:('tracking_code', 'c_d10')
+2017-07-19 16:22:33,227:DEBUG:('context', 'Engaged in the conception or creation of new knowledge, products, methods and systems. For example, PhD students, graduates and scientists.')
+2017-07-19 16:22:33,227:DEBUG:('text', 'researchers?')
+2017-07-19 16:22:33,227:DEBUG:('ID', '(a)')
+2017-07-19 16:22:33,227:DEBUG:('context', 'One FTE may be thought of as one person-year. For example, a person who normally spends 30% of their time on R&D and the rest on other activities should be considered as 0.3 FTE. Similarly, if a full-time R&D worker is employed at an R&D unit for only six months, this results in the FTE of 0.5.')
+2017-07-19 16:22:33,227:DEBUG:('text', 'During the 12 month reporting period, how many full-time equivalents (FTEs) working on R&D were:')
+2017-07-19 16:22:33,227:DEBUG:('ID', '24')
+2017-07-19 16:22:33,227:DEBUG:('context', 'An employee is anyone aged 16 or over that your organisation directly pays from its payroll(s), in return for carrying out a full-time or part-time job or being on a training scheme. Each employee should have a contract of employment.')
+2017-07-19 16:22:33,227:DEBUG:('text', 'Section D - Number of Employees - Headcount and Full Time Equivalent (FTE)')
+2017-07-19 16:22:33,227:DEBUG:('exclude', ['agency workers/contractors paid directly from the agency payroll/contractor company', 'voluntary workers', 'self employed workers', 'former employees only receiving a pension', "working owners who are not paid directly from this business' payroll(s)"])
+2017-07-19 16:22:33,227:DEBUG:('include', ["all workers paid directly from this business' payroll(s)", 'those temporarily absent but still being paid (for example on maternity leave)'])
+2017-07-19 16:22:33,227:DEBUG:('text', 'Survey of Research and Development Carried Out in the United Kingdom')
+2017-07-19 16:22:33,227:DEBUG:('segment_type', 'survey')
+2017-07-19 16:22:33,227:DEBUG:('form_type', '0001')
+2017-07-19 16:22:33,227:DEBUG:('survey_number', '002')
+2017-07-19 16:22:33,227:DEBUG:('reporting_period', {'end': '31/12/2015', 'start': '01/01/2015'})
+2017-07-19 16:22:33,227:DEBUG:('survey_scrape_info', {'folder_name': '002 - Questionnaire Examples', 'download_date': '24/03/2017', 'file_name': 'ex_sel002-ft0001.pdf', 'scrape_date': '01/06/2017'})
+2017-07-19 16:22:33,227:DEBUG:('text', 'Civil')
+2017-07-19 16:22:33,227:DEBUG:('type', 'FTE')
+2017-07-19 16:22:33,227:DEBUG:('tracking_code', 'c_d11')
+2017-07-19 16:22:33,227:DEBUG:('context', 'Perform scientific and technical tasks normally under the supervision of researchers')
+2017-07-19 16:22:33,227:DEBUG:('text', 'technicians?')
+2017-07-19 16:22:33,227:DEBUG:('ID', '(b)')
+2017-07-19 16:22:33,227:DEBUG:('context', 'One FTE may be thought of as one person-year. For example, a person who normally spends 30% of their time on R&D and the rest on other activities should be considered as 0.3 FTE. Similarly, if a full-time R&D worker is employed at an R&D unit for only six months, this results in the FTE of 0.5.')
+2017-07-19 16:22:33,227:DEBUG:('text', 'During the 12 month reporting period, how many full-time equivalents (FTEs) working on R&D were:')
+2017-07-19 16:22:33,227:DEBUG:('ID', '24')
+2017-07-19 16:22:33,227:DEBUG:('context', 'An employee is anyone aged 16 or over that your organisation directly pays from its payroll(s), in return for carrying out a full-time or part-time job or being on a training scheme. Each employee should have a contract of employment.')
+2017-07-19 16:22:33,227:DEBUG:('text', 'Section D - Number of Employees - Headcount and Full Time Equivalent (FTE)')
+2017-07-19 16:22:33,227:DEBUG:('exclude', ['agency workers/contractors paid directly from the agency payroll/contractor company', 'voluntary workers', 'self employed workers', 'former employees only receiving a pension', "working owners who are not paid directly from this business' payroll(s)"])
+2017-07-19 16:22:33,227:DEBUG:('include', ["all workers paid directly from this business' payroll(s)", 'those temporarily absent but still being paid (for example on maternity leave)'])
+2017-07-19 16:22:33,227:DEBUG:('text', 'Survey of Research and Development Carried Out in the United Kingdom')
+2017-07-19 16:22:33,228:DEBUG:('segment_type', 'survey')
+2017-07-19 16:22:33,228:DEBUG:('form_type', '0001')
+2017-07-19 16:22:33,228:DEBUG:('survey_number', '002')
+2017-07-19 16:22:33,228:DEBUG:('reporting_period', {'end': '31/12/2015', 'start': '01/01/2015'})
+2017-07-19 16:22:33,228:DEBUG:('survey_scrape_info', {'folder_name': '002 - Questionnaire Examples', 'download_date': '24/03/2017', 'file_name': 'ex_sel002-ft0001.pdf', 'scrape_date': '01/06/2017'})
+2017-07-19 16:22:33,228:DEBUG:('text', 'Defence')
+2017-07-19 16:22:33,228:DEBUG:('type', 'FTE')
+2017-07-19 16:22:33,228:DEBUG:('tracking_code', 'c_d12')
+2017-07-19 16:22:33,228:DEBUG:('context', 'Perform scientific and technical tasks normally under the supervision of researchers')
+2017-07-19 16:22:33,228:DEBUG:('text', 'technicians?')
+2017-07-19 16:22:33,228:DEBUG:('ID', '(b)')
+2017-07-19 16:22:33,228:DEBUG:('context', 'One FTE may be thought of as one person-year. For example, a person who normally spends 30% of their time on R&D and the rest on other activities should be considered as 0.3 FTE. Similarly, if a full-time R&D worker is employed at an R&D unit for only six months, this results in the FTE of 0.5.')
+2017-07-19 16:22:33,228:DEBUG:('text', 'During the 12 month reporting period, how many full-time equivalents (FTEs) working on R&D were:')
+2017-07-19 16:22:33,228:DEBUG:('ID', '24')
+2017-07-19 16:22:33,228:DEBUG:('context', 'An employee is anyone aged 16 or over that your organisation directly pays from its payroll(s), in return for carrying out a full-time or part-time job or being on a training scheme. Each employee should have a contract of employment.')
+2017-07-19 16:22:33,228:DEBUG:('text', 'Section D - Number of Employees - Headcount and Full Time Equivalent (FTE)')
+2017-07-19 16:22:33,228:DEBUG:('exclude', ['agency workers/contractors paid directly from the agency payroll/contractor company', 'voluntary workers', 'self employed workers', 'former employees only receiving a pension', "working owners who are not paid directly from this business' payroll(s)"])
+2017-07-19 16:22:33,228:DEBUG:('include', ["all workers paid directly from this business' payroll(s)", 'those temporarily absent but still being paid (for example on maternity leave)'])
+2017-07-19 16:22:33,228:DEBUG:('text', 'Survey of Research and Development Carried Out in the United Kingdom')
+2017-07-19 16:22:33,228:DEBUG:('segment_type', 'survey')
+2017-07-19 16:22:33,228:DEBUG:('form_type', '0001')
+2017-07-19 16:22:33,228:DEBUG:('survey_number', '002')
+2017-07-19 16:22:33,228:DEBUG:('reporting_period', {'end': '31/12/2015', 'start': '01/01/2015'})
+2017-07-19 16:22:33,228:DEBUG:('survey_scrape_info', {'folder_name': '002 - Questionnaire Examples', 'download_date': '24/03/2017', 'file_name': 'ex_sel002-ft0001.pdf', 'scrape_date': '01/06/2017'})
+2017-07-19 16:22:33,228:DEBUG:('text', 'Civil')
+2017-07-19 16:22:33,228:DEBUG:('type', 'FTE')
+2017-07-19 16:22:33,228:DEBUG:('tracking_code', 'c_d13')
+2017-07-19 16:22:33,228:DEBUG:('context', 'Support staff including skilled and unskilled craftsmen, secretarial and clerical staff participating in R&D projects')
+2017-07-19 16:22:33,228:DEBUG:('text', 'others?')
+2017-07-19 16:22:33,228:DEBUG:('ID', '(c)')
+2017-07-19 16:22:33,228:DEBUG:('context', 'One FTE may be thought of as one person-year. For example, a person who normally spends 30% of their time on R&D and the rest on other activities should be considered as 0.3 FTE. Similarly, if a full-time R&D worker is employed at an R&D unit for only six months, this results in the FTE of 0.5.')
+2017-07-19 16:22:33,229:DEBUG:('text', 'During the 12 month reporting period, how many full-time equivalents (FTEs) working on R&D were:')
+2017-07-19 16:22:33,229:DEBUG:('ID', '24')
+2017-07-19 16:22:33,229:DEBUG:('context', 'An employee is anyone aged 16 or over that your organisation directly pays from its payroll(s), in return for carrying out a full-time or part-time job or being on a training scheme. Each employee should have a contract of employment.')
+2017-07-19 16:22:33,229:DEBUG:('text', 'Section D - Number of Employees - Headcount and Full Time Equivalent (FTE)')
+2017-07-19 16:22:33,229:DEBUG:('exclude', ['agency workers/contractors paid directly from the agency payroll/contractor company', 'voluntary workers', 'self employed workers', 'former employees only receiving a pension', "working owners who are not paid directly from this business' payroll(s)"])
+2017-07-19 16:22:33,229:DEBUG:('include', ["all workers paid directly from this business' payroll(s)", 'those temporarily absent but still being paid (for example on maternity leave)'])
+2017-07-19 16:22:33,229:DEBUG:('text', 'Survey of Research and Development Carried Out in the United Kingdom')
+2017-07-19 16:22:33,229:DEBUG:('segment_type', 'survey')
+2017-07-19 16:22:33,229:DEBUG:('form_type', '0001')
+2017-07-19 16:22:33,229:DEBUG:('survey_number', '002')
+2017-07-19 16:22:33,229:DEBUG:('reporting_period', {'end': '31/12/2015', 'start': '01/01/2015'})
+2017-07-19 16:22:33,229:DEBUG:('survey_scrape_info', {'folder_name': '002 - Questionnaire Examples', 'download_date': '24/03/2017', 'file_name': 'ex_sel002-ft0001.pdf', 'scrape_date': '01/06/2017'})
+2017-07-19 16:22:33,229:DEBUG:('text', 'Defence')
+2017-07-19 16:22:33,229:DEBUG:('type', 'FTE')
+2017-07-19 16:22:33,229:DEBUG:('tracking_code', 'c_d14')
+2017-07-19 16:22:33,229:DEBUG:('context', 'Support staff including skilled and unskilled craftsmen, secretarial and clerical staff participating in R&D projects')
+2017-07-19 16:22:33,229:DEBUG:('text', 'others?')
+2017-07-19 16:22:33,229:DEBUG:('ID', '(c)')
+2017-07-19 16:22:33,229:DEBUG:('context', 'One FTE may be thought of as one person-year. For example, a person who normally spends 30% of their time on R&D and the rest on other activities should be considered as 0.3 FTE. Similarly, if a full-time R&D worker is employed at an R&D unit for only six months, this results in the FTE of 0.5.')
+2017-07-19 16:22:33,229:DEBUG:('text', 'During the 12 month reporting period, how many full-time equivalents (FTEs) working on R&D were:')
+2017-07-19 16:22:33,229:DEBUG:('ID', '24')
+2017-07-19 16:22:33,229:DEBUG:('context', 'An employee is anyone aged 16 or over that your organisation directly pays from its payroll(s), in return for carrying out a full-time or part-time job or being on a training scheme. Each employee should have a contract of employment.')
+2017-07-19 16:22:33,229:DEBUG:('text', 'Section D - Number of Employees - Headcount and Full Time Equivalent (FTE)')
+2017-07-19 16:22:33,229:DEBUG:('exclude', ['agency workers/contractors paid directly from the agency payroll/contractor company', 'voluntary workers', 'self employed workers', 'former employees only receiving a pension', "working owners who are not paid directly from this business' payroll(s)"])
+2017-07-19 16:22:33,229:DEBUG:('include', ["all workers paid directly from this business' payroll(s)", 'those temporarily absent but still being paid (for example on maternity leave)'])
+2017-07-19 16:22:33,229:DEBUG:('text', 'Survey of Research and Development Carried Out in the United Kingdom')
+2017-07-19 16:22:33,229:DEBUG:('segment_type', 'survey')
+2017-07-19 16:22:33,229:DEBUG:('form_type', '0001')
+2017-07-19 16:22:33,229:DEBUG:('survey_number', '002')
+2017-07-19 16:22:33,229:DEBUG:('reporting_period', {'end': '31/12/2015', 'start': '01/01/2015'})
+2017-07-19 16:22:33,229:DEBUG:('survey_scrape_info', {'folder_name': '002 - Questionnaire Examples', 'download_date': '24/03/2017', 'file_name': 'ex_sel002-ft0001.pdf', 'scrape_date': '01/06/2017'})
+2017-07-19 16:22:33,230:DEBUG:('text', 'Civil')
+2017-07-19 16:22:33,230:DEBUG:('type', 'FTE')
+2017-07-19 16:22:33,230:DEBUG:('tracking_code', 'c_d15')
+2017-07-19 16:22:33,230:DEBUG:('text', 'During the 12 month reporting period, what was your total number of FTEs working on R&D?')
+2017-07-19 16:22:33,230:DEBUG:('ID', '25')
+2017-07-19 16:22:33,230:DEBUG:('context', 'An employee is anyone aged 16 or over that your organisation directly pays from its payroll(s), in return for carrying out a full-time or part-time job or being on a training scheme. Each employee should have a contract of employment.')
+2017-07-19 16:22:33,230:DEBUG:('text', 'Section D - Number of Employees - Headcount and Full Time Equivalent (FTE)')
+2017-07-19 16:22:33,230:DEBUG:('exclude', ['agency workers/contractors paid directly from the agency payroll/contractor company', 'voluntary workers', 'self employed workers', 'former employees only receiving a pension', "working owners who are not paid directly from this business' payroll(s)"])
+2017-07-19 16:22:33,230:DEBUG:('include', ["all workers paid directly from this business' payroll(s)", 'those temporarily absent but still being paid (for example on maternity leave)'])
+2017-07-19 16:22:33,230:DEBUG:('text', 'Survey of Research and Development Carried Out in the United Kingdom')
+2017-07-19 16:22:33,230:DEBUG:('segment_type', 'survey')
+2017-07-19 16:22:33,230:DEBUG:('form_type', '0001')
+2017-07-19 16:22:33,230:DEBUG:('survey_number', '002')
+2017-07-19 16:22:33,230:DEBUG:('reporting_period', {'end': '31/12/2015', 'start': '01/01/2015'})
+2017-07-19 16:22:33,230:DEBUG:('survey_scrape_info', {'folder_name': '002 - Questionnaire Examples', 'download_date': '24/03/2017', 'file_name': 'ex_sel002-ft0001.pdf', 'scrape_date': '01/06/2017'})
+2017-07-19 16:22:33,230:DEBUG:('text', 'Defence')
+2017-07-19 16:22:33,230:DEBUG:('type', 'FTE')
+2017-07-19 16:22:33,230:DEBUG:('tracking_code', 'c_d16')
+2017-07-19 16:22:33,230:DEBUG:('text', 'During the 12 month reporting period, what was your total number of FTEs working on R&D?')
+2017-07-19 16:22:33,230:DEBUG:('ID', '25')
+2017-07-19 16:22:33,230:DEBUG:('context', 'An employee is anyone aged 16 or over that your organisation directly pays from its payroll(s), in return for carrying out a full-time or part-time job or being on a training scheme. Each employee should have a contract of employment.')
+2017-07-19 16:22:33,230:DEBUG:('text', 'Section D - Number of Employees - Headcount and Full Time Equivalent (FTE)')
+2017-07-19 16:22:33,230:DEBUG:('exclude', ['agency workers/contractors paid directly from the agency payroll/contractor company', 'voluntary workers', 'self employed workers', 'former employees only receiving a pension', "working owners who are not paid directly from this business' payroll(s)"])
+2017-07-19 16:22:33,230:DEBUG:('include', ["all workers paid directly from this business' payroll(s)", 'those temporarily absent but still being paid (for example on maternity leave)'])
+2017-07-19 16:22:33,230:DEBUG:('text', 'Survey of Research and Development Carried Out in the United Kingdom')
+2017-07-19 16:22:33,230:DEBUG:('segment_type', 'survey')
+2017-07-19 16:22:33,230:DEBUG:('form_type', '0001')
+2017-07-19 16:22:33,231:DEBUG:('survey_number', '002')
+2017-07-19 16:22:33,231:DEBUG:('reporting_period', {'end': '31/12/2015', 'start': '01/01/2015'})
+2017-07-19 16:22:33,231:DEBUG:('survey_scrape_info', {'folder_name': '002 - Questionnaire Examples', 'download_date': '24/03/2017', 'file_name': 'ex_sel002-ft0001.pdf', 'scrape_date': '01/06/2017'})
+2017-07-19 16:22:33,231:DEBUG:('text', 'Have there been any significant changes in the data since the last reporting period?')
+2017-07-19 16:22:33,231:DEBUG:('routing', [{'value': 'Yes', 'destination': 'c_e4'}, {'value': 'No', 'destination': 'c_e5'}])
+2017-07-19 16:22:33,231:DEBUG:('ID', '27')
+2017-07-19 16:22:33,231:DEBUG:('tracking_code', 'c_e3')
+2017-07-19 16:22:33,231:DEBUG:('type', 'boolean')
+2017-07-19 16:22:33,231:DEBUG:('text', 'Section E - Workplace Information')
+2017-07-19 16:22:33,231:DEBUG:('text', 'Survey of Research and Development Carried Out in the United Kingdom')
+2017-07-19 16:22:33,231:DEBUG:('segment_type', 'survey')
+2017-07-19 16:22:33,231:DEBUG:('form_type', '0001')
+2017-07-19 16:22:33,231:DEBUG:('survey_number', '002')
+2017-07-19 16:22:33,231:DEBUG:('reporting_period', {'end': '31/12/2015', 'start': '01/01/2015'})
+2017-07-19 16:22:33,231:DEBUG:('survey_scrape_info', {'folder_name': '002 - Questionnaire Examples', 'download_date': '24/03/2017', 'file_name': 'ex_sel002-ft0001.pdf', 'scrape_date': '01/06/2017'})
+2017-07-19 16:22:33,231:DEBUG:('text', 'Please provide any comments below')
+2017-07-19 16:22:33,231:DEBUG:('ID', '28')
+2017-07-19 16:22:33,231:DEBUG:('tracking_code', 'c_e4')
+2017-07-19 16:22:33,231:DEBUG:('type', 'open_text')
+2017-07-19 16:22:33,231:DEBUG:('text', 'Section E - Workplace Information')
+2017-07-19 16:22:33,231:DEBUG:('text', 'Survey of Research and Development Carried Out in the United Kingdom')
+2017-07-19 16:22:33,231:DEBUG:('segment_type', 'survey')
+2017-07-19 16:22:33,231:DEBUG:('form_type', '0001')
+2017-07-19 16:22:33,231:DEBUG:('survey_number', '002')
+2017-07-19 16:22:33,231:DEBUG:('reporting_period', {'end': '31/12/2015', 'start': '01/01/2015'})
+2017-07-19 16:22:33,231:DEBUG:('survey_scrape_info', {'folder_name': '002 - Questionnaire Examples', 'download_date': '24/03/2017', 'file_name': 'ex_sel002-ft0001.pdf', 'scrape_date': '01/06/2017'})
+2017-07-19 16:22:33,231:DEBUG:('context', 'Please provide details of the person we should contact if we have any queries regarding the information returned on this questionnaire:')
+2017-07-19 16:22:33,231:DEBUG:('text', 'Contact details')
+2017-07-19 16:22:33,231:DEBUG:('ID', '29')
+2017-07-19 16:22:33,231:DEBUG:('tracking_code', 'c_e5')
+2017-07-19 16:22:33,231:DEBUG:('type', 'contact_6')
+2017-07-19 16:22:33,232:DEBUG:('text', 'Section E - Workplace Information')
+2017-07-19 16:22:33,232:DEBUG:('text', 'Survey of Research and Development Carried Out in the United Kingdom')
+2017-07-19 16:22:33,232:DEBUG:('segment_type', 'survey')
+2017-07-19 16:22:33,232:DEBUG:('form_type', '0001')
+2017-07-19 16:22:33,232:DEBUG:('survey_number', '002')
+2017-07-19 16:22:33,232:DEBUG:('reporting_period', {'end': '31/12/2015', 'start': '01/01/2015'})
+2017-07-19 16:22:33,232:DEBUG:('survey_scrape_info', {'folder_name': '002 - Questionnaire Examples', 'download_date': '24/03/2017', 'file_name': 'ex_sel002-ft0001.pdf', 'scrape_date': '01/06/2017'})
+2017-07-20 13:16:39,336:DEBUG:['segment', 'segment', 0, 'question', 0, 'tracking_code']
+2017-07-20 13:16:39,337:DEBUG:['segment', 'segment', 0, 'segment', 0, 'question', 0, 'tracking_code']
+2017-07-20 13:16:39,337:DEBUG:['segment', 'segment', 0, 'segment', 0, 'question', 1, 'tracking_code']
+2017-07-20 13:16:39,337:DEBUG:['segment', 'segment', 2, 'question', 0, 'tracking_code']
+2017-07-20 13:16:39,337:DEBUG:['segment', 'segment', 3, 'segment', 0, 'segment', 0, 'question', 0, 'tracking_code']
+2017-07-20 13:16:39,337:DEBUG:['segment', 'segment', 3, 'segment', 0, 'segment', 0, 'question', 1, 'tracking_code']
+2017-07-20 13:16:39,337:DEBUG:['segment', 'segment', 3, 'segment', 0, 'segment', 1, 'question', 0, 'tracking_code']
+2017-07-20 13:16:39,337:DEBUG:['segment', 'segment', 3, 'segment', 0, 'segment', 1, 'question', 1, 'tracking_code']
+2017-07-20 13:16:39,337:DEBUG:['segment', 'segment', 3, 'segment', 0, 'segment', 2, 'question', 0, 'tracking_code']
+2017-07-20 13:16:39,337:DEBUG:['segment', 'segment', 3, 'segment', 0, 'segment', 2, 'question', 1, 'tracking_code']
+2017-07-20 13:16:39,337:DEBUG:['segment', 'segment', 3, 'segment', 1, 'question', 0, 'tracking_code']
+2017-07-20 13:16:39,337:DEBUG:['segment', 'segment', 3, 'segment', 1, 'question', 1, 'tracking_code']
+2017-07-20 13:16:39,337:DEBUG:['segment', 'segment', 3, 'segment', 2, 'segment', 0, 'question', 0, 'tracking_code']
+2017-07-20 13:16:39,337:DEBUG:['segment', 'segment', 3, 'segment', 2, 'segment', 0, 'question', 1, 'tracking_code']
+2017-07-20 13:16:39,338:DEBUG:['segment', 'segment', 3, 'segment', 2, 'segment', 1, 'question', 0, 'tracking_code']
+2017-07-20 13:16:39,338:DEBUG:['segment', 'segment', 3, 'segment', 2, 'segment', 1, 'question', 1, 'tracking_code']
+2017-07-20 13:16:39,338:DEBUG:['segment', 'segment', 3, 'segment', 2, 'segment', 2, 'question', 0, 'tracking_code']
+2017-07-20 13:16:39,338:DEBUG:['segment', 'segment', 3, 'segment', 2, 'segment', 2, 'question', 1, 'tracking_code']
+2017-07-20 13:16:39,338:DEBUG:['segment', 'segment', 3, 'segment', 3, 'question', 0, 'tracking_code']
+2017-07-20 13:16:39,338:DEBUG:['segment', 'segment', 3, 'segment', 3, 'question', 1, 'tracking_code']
+2017-07-20 13:16:39,338:DEBUG:['segment', 'segment', 4, 'question', 0, 'tracking_code']
+2017-07-20 13:16:39,338:DEBUG:['segment', 'segment', 4, 'question', 1, 'tracking_code']
+2017-07-20 13:16:39,338:DEBUG:['segment', 'segment', 4, 'question', 2, 'tracking_code']
+2017-07-20 13:19:15,556:DEBUG:['segment', 'segment', 0, 'question', 0, 'tracking_code']
+2017-07-20 13:19:15,556:DEBUG:['segment', 'segment', 0, 'segment', 0, 'question', 0, 'tracking_code']
+2017-07-20 13:19:15,556:DEBUG:['segment', 'segment', 0, 'segment', 0, 'question', 1, 'tracking_code']
+2017-07-20 13:19:15,557:DEBUG:['segment', 'segment', 2, 'question', 0, 'tracking_code']
+2017-07-20 13:19:15,557:DEBUG:['segment', 'segment', 3, 'segment', 0, 'segment', 0, 'question', 0, 'tracking_code']
+2017-07-20 13:19:15,557:DEBUG:['segment', 'segment', 3, 'segment', 0, 'segment', 0, 'question', 1, 'tracking_code']
+2017-07-20 13:19:15,557:DEBUG:['segment', 'segment', 3, 'segment', 0, 'segment', 1, 'question', 0, 'tracking_code']
+2017-07-20 13:19:15,557:DEBUG:['segment', 'segment', 3, 'segment', 0, 'segment', 1, 'question', 1, 'tracking_code']
+2017-07-20 13:19:15,557:DEBUG:['segment', 'segment', 3, 'segment', 0, 'segment', 2, 'question', 0, 'tracking_code']
+2017-07-20 13:19:15,557:DEBUG:['segment', 'segment', 3, 'segment', 0, 'segment', 2, 'question', 1, 'tracking_code']
+2017-07-20 13:19:15,557:DEBUG:['segment', 'segment', 3, 'segment', 1, 'question', 0, 'tracking_code']
+2017-07-20 13:19:15,557:DEBUG:['segment', 'segment', 3, 'segment', 1, 'question', 1, 'tracking_code']
+2017-07-20 13:19:15,557:DEBUG:['segment', 'segment', 3, 'segment', 2, 'segment', 0, 'question', 0, 'tracking_code']
+2017-07-20 13:19:15,557:DEBUG:['segment', 'segment', 3, 'segment', 2, 'segment', 0, 'question', 1, 'tracking_code']
+2017-07-20 13:19:15,557:DEBUG:['segment', 'segment', 3, 'segment', 2, 'segment', 1, 'question', 0, 'tracking_code']
+2017-07-20 13:19:15,557:DEBUG:['segment', 'segment', 3, 'segment', 2, 'segment', 1, 'question', 1, 'tracking_code']
+2017-07-20 13:19:15,557:DEBUG:['segment', 'segment', 3, 'segment', 2, 'segment', 2, 'question', 0, 'tracking_code']
+2017-07-20 13:19:15,558:DEBUG:['segment', 'segment', 3, 'segment', 2, 'segment', 2, 'question', 1, 'tracking_code']
+2017-07-20 13:19:15,558:DEBUG:['segment', 'segment', 3, 'segment', 3, 'question', 0, 'tracking_code']
+2017-07-20 13:19:15,558:DEBUG:['segment', 'segment', 3, 'segment', 3, 'question', 1, 'tracking_code']
+2017-07-20 13:19:15,558:DEBUG:['segment', 'segment', 4, 'question', 0, 'tracking_code']
+2017-07-20 13:19:15,558:DEBUG:['segment', 'segment', 4, 'question', 1, 'tracking_code']
+2017-07-20 13:19:15,558:DEBUG:['segment', 'segment', 4, 'question', 2, 'tracking_code']
+2017-07-20 13:21:36,921:DEBUG:['segment', 'segment', 0, 'segment', 0, 'question', 0, 'tracking_code']
+2017-07-20 13:21:36,921:DEBUG:['segment', 'segment', 0, 'segment', 0, 'question', 1, 'tracking_code']
+2017-07-20 13:21:36,921:DEBUG:['segment', 'segment', 0, 'question', 0, 'tracking_code']
+2017-07-20 13:21:36,922:DEBUG:['segment', 'segment', 2, 'question', 0, 'tracking_code']
+2017-07-20 13:21:36,922:DEBUG:['segment', 'segment', 3, 'segment', 0, 'segment', 0, 'question', 0, 'tracking_code']
+2017-07-20 13:21:36,922:DEBUG:['segment', 'segment', 3, 'segment', 0, 'segment', 0, 'question', 1, 'tracking_code']
+2017-07-20 13:21:36,922:DEBUG:['segment', 'segment', 3, 'segment', 0, 'segment', 1, 'question', 0, 'tracking_code']
+2017-07-20 13:21:36,922:DEBUG:['segment', 'segment', 3, 'segment', 0, 'segment', 1, 'question', 1, 'tracking_code']
+2017-07-20 13:21:36,922:DEBUG:['segment', 'segment', 3, 'segment', 0, 'segment', 2, 'question', 0, 'tracking_code']
+2017-07-20 13:21:36,923:DEBUG:['segment', 'segment', 3, 'segment', 0, 'segment', 2, 'question', 1, 'tracking_code']
+2017-07-20 13:21:36,923:DEBUG:['segment', 'segment', 3, 'segment', 1, 'question', 0, 'tracking_code']
+2017-07-20 13:21:36,923:DEBUG:['segment', 'segment', 3, 'segment', 1, 'question', 1, 'tracking_code']
+2017-07-20 13:21:36,923:DEBUG:['segment', 'segment', 3, 'segment', 2, 'segment', 0, 'question', 0, 'tracking_code']
+2017-07-20 13:21:36,923:DEBUG:['segment', 'segment', 3, 'segment', 2, 'segment', 0, 'question', 1, 'tracking_code']
+2017-07-20 13:21:36,923:DEBUG:['segment', 'segment', 3, 'segment', 2, 'segment', 1, 'question', 0, 'tracking_code']
+2017-07-20 13:21:36,923:DEBUG:['segment', 'segment', 3, 'segment', 2, 'segment', 1, 'question', 1, 'tracking_code']
+2017-07-20 13:21:36,923:DEBUG:['segment', 'segment', 3, 'segment', 2, 'segment', 2, 'question', 0, 'tracking_code']
+2017-07-20 13:21:36,924:DEBUG:['segment', 'segment', 3, 'segment', 2, 'segment', 2, 'question', 1, 'tracking_code']
+2017-07-20 13:21:36,924:DEBUG:['segment', 'segment', 3, 'segment', 3, 'question', 0, 'tracking_code']
+2017-07-20 13:21:36,924:DEBUG:['segment', 'segment', 3, 'segment', 3, 'question', 1, 'tracking_code']
+2017-07-20 13:21:36,924:DEBUG:['segment', 'segment', 4, 'question', 0, 'tracking_code']
+2017-07-20 13:21:36,924:DEBUG:['segment', 'segment', 4, 'question', 1, 'tracking_code']
+2017-07-20 13:21:36,924:DEBUG:['segment', 'segment', 4, 'question', 2, 'tracking_code']
+2017-07-20 13:22:10,533:DEBUG:['segment', 'segment', 0, 'question', 0, 'tracking_code']
+2017-07-20 13:22:10,533:DEBUG:['segment', 'segment', 0, 'segment', 0, 'question', 0, 'tracking_code']
+2017-07-20 13:22:10,533:DEBUG:['segment', 'segment', 0, 'segment', 0, 'question', 1, 'tracking_code']
+2017-07-20 13:22:10,534:DEBUG:['segment', 'segment', 2, 'question', 0, 'tracking_code']
+2017-07-20 13:22:10,534:DEBUG:['segment', 'segment', 3, 'segment', 0, 'segment', 0, 'question', 0, 'tracking_code']
+2017-07-20 13:22:10,534:DEBUG:['segment', 'segment', 3, 'segment', 0, 'segment', 0, 'question', 1, 'tracking_code']
+2017-07-20 13:22:10,534:DEBUG:['segment', 'segment', 3, 'segment', 0, 'segment', 1, 'question', 0, 'tracking_code']
+2017-07-20 13:22:10,534:DEBUG:['segment', 'segment', 3, 'segment', 0, 'segment', 1, 'question', 1, 'tracking_code']
+2017-07-20 13:22:10,534:DEBUG:['segment', 'segment', 3, 'segment', 0, 'segment', 2, 'question', 0, 'tracking_code']
+2017-07-20 13:22:10,534:DEBUG:['segment', 'segment', 3, 'segment', 0, 'segment', 2, 'question', 1, 'tracking_code']
+2017-07-20 13:22:10,534:DEBUG:['segment', 'segment', 3, 'segment', 1, 'question', 0, 'tracking_code']
+2017-07-20 13:22:10,534:DEBUG:['segment', 'segment', 3, 'segment', 1, 'question', 1, 'tracking_code']
+2017-07-20 13:22:10,534:DEBUG:['segment', 'segment', 3, 'segment', 2, 'segment', 0, 'question', 0, 'tracking_code']
+2017-07-20 13:22:10,534:DEBUG:['segment', 'segment', 3, 'segment', 2, 'segment', 0, 'question', 1, 'tracking_code']
+2017-07-20 13:22:10,534:DEBUG:['segment', 'segment', 3, 'segment', 2, 'segment', 1, 'question', 0, 'tracking_code']
+2017-07-20 13:22:10,534:DEBUG:['segment', 'segment', 3, 'segment', 2, 'segment', 1, 'question', 1, 'tracking_code']
+2017-07-20 13:22:10,534:DEBUG:['segment', 'segment', 3, 'segment', 2, 'segment', 2, 'question', 0, 'tracking_code']
+2017-07-20 13:22:10,535:DEBUG:['segment', 'segment', 3, 'segment', 2, 'segment', 2, 'question', 1, 'tracking_code']
+2017-07-20 13:22:10,535:DEBUG:['segment', 'segment', 3, 'segment', 3, 'question', 0, 'tracking_code']
+2017-07-20 13:22:10,535:DEBUG:['segment', 'segment', 3, 'segment', 3, 'question', 1, 'tracking_code']
+2017-07-20 13:22:10,535:DEBUG:['segment', 'segment', 4, 'question', 0, 'tracking_code']
+2017-07-20 13:22:10,535:DEBUG:['segment', 'segment', 4, 'question', 1, 'tracking_code']
+2017-07-20 13:22:10,535:DEBUG:['segment', 'segment', 4, 'question', 2, 'tracking_code']
